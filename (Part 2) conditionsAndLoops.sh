@@ -94,7 +94,7 @@ for i in {0..10}
     then
     continue
     fi
-    if (( i -et 10 ))
+    if [ $i -eq 10 ]
     then 
     break
     fi

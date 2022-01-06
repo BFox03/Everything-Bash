@@ -16,6 +16,7 @@ echo "This is text that will be displayed through echo"
    #Note: If no file is found it will make one
 echo "This will be written onto the file" > file.txt
 #If you would like a CLI 
+#To exit the input enter ctrl + d
 cat > file.txt
 #To append rather than replace you would use two arrows
 echo "This does not replace all of the text" >> file.txt

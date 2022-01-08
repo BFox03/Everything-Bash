@@ -24,7 +24,7 @@ echo ${array[@]} #print entire array can also use *
 echo $# #print length of array, since there is 6 indexes in the 2 arrays it will show 6
 
 #This loop command will read all lines in the specified function given in the command line
-#Ex. by typing "./scripting.sh file\ with\ text.txt"
+#Ex. by typing "./scripting.sh file\ with\ text.txt" the entire file will be printed (as long as same directory as command line)
 while read line
 do
     echo "$line"   
